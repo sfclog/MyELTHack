@@ -1,0 +1,16 @@
+{
+  "name": "MyELTHack",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Hack hiển thị nút Hiện Đáp Án cho MyELT.",
+  "browser_action": {
+	"default_title": "MyELTHack",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["content.js"]
+  }
+}
